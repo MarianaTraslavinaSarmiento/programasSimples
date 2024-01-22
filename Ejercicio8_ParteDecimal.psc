@@ -1,9 +1,7 @@
 Algoritmo parte_decimal
-	definir num como real
-	escribir "Ingrese el numero en decimal: "
-	leer num
-	
-	resultado = num - trunc(num)
-	
-	escribir resultado
+	Definir num Como Real
+	Escribir 'Ingrese el numero en decimal: '
+	Leer num
+	resultado <- num-trunc(num)
+	Escribir resultado
 FinAlgoritmo
