@@ -13,7 +13,7 @@ while True:
         perimetro = round(2*num_pi*radio ,1)
         print(f"El perímetro del circulo es {perimetro}")
 
-        area = round((num_pi*radio)**2 ,1)
+        area = round(num_pi*(radio**2) ,1)
         print(f"El área del circulo es {area}")
         break
     except ValueError:
